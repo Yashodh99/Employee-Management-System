@@ -1,0 +1,159 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 8px 0 4px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"],
+form .button {
+    width: 50%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form .cancel-button {
+    background-color: #d9534f;
+    color: white;
+}
+
+form .cancel-button:hover {
+    background-color: #c9302c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.employee-details {
+    margin-top: 20px;
+}
+
+.employee-details p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.employee-details strong {
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.buttons {
+    text-align: center;
+}
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="tel"]:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.error {
+            color: red;
+        }
